@@ -40,9 +40,8 @@ h2{
     top: 0;
     z-index: 1030;
   }
-  .navbar-nav{
+  .navbar-header{
     border: 0;
-    background-color: #4080ff;
     border-radius: 0px;
     margin-bottom: 0;
     height: 100%;
