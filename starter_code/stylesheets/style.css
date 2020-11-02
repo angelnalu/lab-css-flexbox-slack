@@ -5,3 +5,370 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+html{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+h1{
+  font-size: 5rem;
+  color: black;
+  text-align: start;
+}
+h2{
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+
+/* celphone */
+  .navbar-fixed-top {
+    background-color: #5b5e6d;
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    border-bottom: 0.5px solid black;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+  }
+  .navbar-nav{
+    border: 0;
+    background-color: #4080ff;
+    border-radius: 0px;
+    margin-bottom: 0;
+    height: 100%;
+  }
+  .nav-link{
+    color: white;
+    justify-content: right;
+  }
+  .slack_logo{
+    width: 100px;
+    margin-left: 10px;
+  }
+  header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .img_home{
+    margin-top: 2rem;
+    height: 30rem;
+  }
+  p{
+    color: black;
+    font-size: 1.6rem;
+  }
+  .text_one{
+    text-align: justify;
+    padding-top: 6rem;
+  }
+  .email_button{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .email{
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  .button{
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    background-color: #192592;
+    color: white;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-flex{
+    background-color: #F4F3F4;
+  }
+  .container-flex > p{
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .discovery{
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .discovery_one{
+    width: 16rem;
+    height: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .discovery_onne{
+    width: 32rem;
+    height: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .discovery_two{
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .discovery_three{
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .logo{
+    margin-top: 6rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  hr {
+    width:100%;
+    height:0.1px;
+    background: gray
+      }
+
+  .button_discovery{
+    width: 80%;
+    height: 6rem;
+    color: blue;
+    background-color:white;
+    border-radius: 1rem;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+  .try_for_free{
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .sign_in{
+    font-size: 2rem;
+  }
+  .email_two{
+    text-align: center;
+    margin-bottom: 2rem;
+    height: 4rem;
+  }
+  .button_two{
+    height: 4rem;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    background-color: #192592;
+    color: white;
+  }
+  .image_slack{
+    height: 8rem;
+  }
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  ul{
+    list-style-type:none;
+  }
+ .title{
+    padding-top: 2rem;;
+    font-weight: bold;
+  }
+  .last_ul{
+    margin-left: 1rem;
+  }
+  .test{
+    background-color: #F4F3F4 ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  .line{
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .usa{
+    width: 2rem;
+  }
+  .midia{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  i{
+    margin-left: 1rem;
+  }
+
+  @media(min-width: 768px){
+    .navbar-fixed-top {
+      height: 8rem;
+    }
+    h1{
+      margin-top: 4rem;
+    }
+    h2{
+      font-size: 5rem;
+    }
+    p{
+      color: black;
+      font-size: 3rem;
+    }
+    .email_button{
+      display: flex;
+      flex-flow: nowrap;
+      flex-direction: row;
+    }
+    .email{
+      width: 60rem;
+      margin-right: 1rem;
+      height: 10rem;
+      border-radius: 1rem;
+    }
+    .button{
+      width: 30rem;
+      height: 10rem;
+      margin-top: 0;
+      border-radius: 1rem;
+    }
+    .img_home{
+      width: 60rem;
+      height: 80rem;
+      position: relative;
+      align-self: center;
+    }
+    .container-flex > p{
+      margin: 2rem;
+      font-size: 2.5rem;
+    }
+    .button_discovery{
+      width: 35rem;
+      height: 10rem;
+      border-color: blue;
+      font-size:2.5rem;
+    }
+    .logo{
+      display: grid;
+      display: list-item;
+      text-align-last: justify;
+
+    }
+    .discovery_one{
+      margin-left: 6rem;
+      margin-right: 9rem;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+    }
+
+    .logo > .discovery_onne{
+      margin-right: 4rem;
+      margin-bottom: 8rem;
+      margin-top: 8rem;
+    }
+    .discovery_two{
+      margin-left: 6rem;
+      margin-bottom: 8rem;
+      margin-top: 8rem;
+    }
+    .discovery_three{
+      margin-right: 10rem;
+      margin-bottom: 8rem;
+      margin-top: 8rem;
+    }
+    .none {
+      display: none;
+    }
+    .none_one{
+      display: none;
+    }
+    hr > .tablet{
+      width:100%;
+      background: gray
+    }
+    .tablet_one{
+      width:100%;
+      background: gray
+    }
+    .container{
+      display: flex;
+      flex-flow: row wrap;
+
+    }
+    .try_for_free{
+      text-align: initial;
+      font-size: 3rem;
+    }
+    .sign_in{
+      text-align: initial;
+      font-size: 2rem;
+    }
+    .email_two{
+      height: 6rem;
+      margin-left: 8rem;
+      border-radius: 1rem;
+    }
+    .button_two{
+      height: 6rem;
+      border-radius: 1rem;
+    }
+
+    footer{
+      display: flex;
+      flex-wrap: wrap;
+      font-size:1.5rem ;
+    }
+
+    .test{
+      display:flex;
+      flex-direction: row;
+      width: 900px;
+      font-size: 2rem;
+    }
+    .contact{
+      margin-right: 4rem;
+      margin-left: 4rem;
+    }
+    .line{
+      margin-right: 4rem;
+    }
+    @media(min-width: 960px){
+      hr{
+          display: none;
+      }
+      .logo{
+        display: -ms-grid;
+        display: inline-block;
+
+      }
+
+    }
+
+  }
